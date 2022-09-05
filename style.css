@@ -168,7 +168,7 @@ h6 {
 }
 
 .parallax-block__rope_mod1 .parallax-block__elem {
-  transform: scale(0.4);
+  transform: scale(0.6);
 }
 
 .parallax-block__rope_mod2 .parallax-block__elem {
@@ -185,7 +185,7 @@ h6 {
 }
 
 .parallax-block__rope_mod2 {
-  top: -1, 66667%;
+  top: -1.66667%;
   transform: scale(1.05556);
 }
 
@@ -253,6 +253,12 @@ h6 {
     cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 
+@media (max-width: 1440px) {
+  .parallax-block__light-house {
+    background: url('./img/lighthouse.png') 50px 350px/110px 220px no-repeat;
+  }
+}
+
 .parallax-block__elem {
   position: absolute;
 }
@@ -303,7 +309,7 @@ h6 {
 }
 
 .parallax-block__elem_mod5 {
-  top: 59%;
+  top: 56%;
   left: 50%;
 }
 
